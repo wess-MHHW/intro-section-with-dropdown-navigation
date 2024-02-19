@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Wassim Maaoui" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./images/logo.svg" alt="logo" class="logo" />
+      <button class="hamburger-menu">
+        <span class="bar"></span>
+      </button>
+      <nav>
+        <ul class="main-links">
+          <li id="features">
+            <span class="features link"
+              >Features
+              <img
+                src="./images/icon-arrow-down.svg"
+                alt="arrow"
+                class="arrow"
+              />
+            </span>
+            <nav>
+              <ul class="features-links">
+                <li>
+                  <span class="nowrap item">
+                    <img src="./images/icon-todo.svg" alt="todo" />
+                    Todo List
+                  </span>
+                </li>
+                <li>
+                  <span class="nowrap item">
+                    <img src="./images/icon-calendar.svg" alt="calendar" />
+                    Calendar
+                  </span>
+                </li>
+                <li>
+                  <span class="nowrap item">
+                    <img src="./images/icon-reminders.svg" alt="reminders" />
+                    Reminders
+                  </span>
+                </li>
+                <li>
+                  <span class="nowrap item">
+                    <img src="./images/icon-planning.svg" alt="planning" />
+                    Planning
+                  </span>
+                </li>
+              </ul>
+            </nav>
+          </li>
+          <li id="company">
+            <span class="company link"
+              >Company
+              <img
+                src="./images/icon-arrow-down.svg"
+                alt="arrow"
+                class="arrow"
+              />
+            </span>
+            <nav>
+              <ul class="company-links">
+                <li>History</li>
+                <li class="nowrap">Our team</li>
+                <li>Blog</li>
+              </ul>
+            </nav>
+          </li>
+          <li class="link">Careers</li>
+          <li class="link">About</li>
+          <li class="link">Login</li>
+          <li class="link">Register</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <figure class="hero">
+        <img
+          src="./images/image-hero-desktop.png"
+          alt="hero image"
+          class="hero-desktop"
+        />
+        <img
+          src="./images/image-hero-mobile.png"
+          alt="hero image"
+          class="hero-mobile"
+        />
+      </figure>
+      <div class="details">
+        <h1 class="title">Make remote work</h1>
+        <p class="text">
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button type="button" class="more-btn">Learn more</button>
+        <div class="clients">
+          <img src="./images/client-databiz.svg" alt="client-databiz" />
+          <img src="./images/client-audiophile.svg" alt="client-audiophile" />
+          <img src="./images/client-meet.svg" alt="client-meet" />
+          <img src="./images/client-maker.svg" alt="client-maker" />
+        </div>
+      </div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
